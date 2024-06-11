@@ -1,0 +1,361 @@
+/* Home */
+body{
+    background-color:beige;
+}
+.header{
+    background-color:beige;
+    height: auto;
+    width: auto;
+    position: relative;
+    display: flex;
+    text-align: center;
+    font-size: large;
+    ;
+}
+/* font css */
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  
+  /* font css ends here----- */
+
+
+
+
+
+.cname{
+    
+    border-radius: 50%;
+    font-size: xx-large;
+    color: black;
+    margin: 20px;
+    padding-right: 40px;
+
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.navbar{
+    justify-content:space-between;
+    border-radius: 50%;
+    color:black;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: 35px;
+}
+.navbar:hover{
+    
+    color:#FF3368;
+    cursor: pointer;
+}
+.image{
+    
+    align-items: center;
+    display: block;
+    position:relative;
+}
+.images{
+    border-radius: 20px;
+    margin-left: 50px;
+    display:flex;
+    width: 500px;
+    height: 450px;
+
+}
+.comname{
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.address{
+    text-align: center;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.icons{
+    display: flex;
+    margin-left: 10px;
+    justify-content:flex-end;
+    margin-right: 15px;
+}
+.istyle{
+    margin-left: 10px;
+}
+.sch-btn{
+    border-radius: 10%;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    margin-left: 190px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.pro{
+margin :100px;
+font-size: x-large;
+align-items: center;
+}
+.information{
+    margin-top: 120px;
+    margin-left:30px;
+    font-size: xx-large;
+}
+.villa{
+    margin: 10px;
+  width: 600px;
+  height: 730px;
+}
+/* Property */
+.name{
+    position: absolute;
+    /* padding-left: 650px;
+    padding-top: 120px; */
+    border: 3px solid black;
+    background-color: goldenrod;
+    font-size: 50px;
+    font-family: 'times new roman';
+    color:black;
+    justify-content: center;
+}
+
+.property{
+    margin: 10px;
+  width: 600px;
+  height: 730px;
+    border: 1px solid skyblue ;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 20px 1px slategrey;
+    background-color: beige;
+    color: black;
+}
+#c1{
+    display: inline-block;
+}#c2{
+    display: inline-block;
+}#c3{
+    display: inline-block;
+}#c4{
+    display: inline-block;
+}
+#c5{
+    display: inline-block;
+}
+.prop{
+    display:inline-block;
+    margin: 10px;
+}
+.title{
+    font-size: x-large;
+}
+.home{
+    display: inline-block;
+}
+.img{
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    margin-left: 3px;
+    justify-content: center;
+}
+.img:hover{
+    border: 1px solid rgb(98, 139, 199, 0.027);
+    background-color:black;
+    padding: 5px;
+    margin-left: 7px;
+    justify-content: center;
+}
+.description{
+
+    margin: 10px;
+}
+.price{
+    font-weight: bold;
+}
+/* Contact us */
+.contact{
+    margin :100px;
+    font-size: xx-large;
+    
+}
+.form{
+    size: 300px;
+    line-height:40px;
+    border: 1px solid black;
+    font-size: x-large;
+    text-align: center;
+    padding:50px;
+    margin: 100px;
+    box-shadow:10px 10px 50px darkgray;
+    
+}
+.form:hover{
+    size: 300px;
+    line-height:40px;
+    border: 1px solid black;
+    font-size: x-large;
+    text-align: center;
+    padding:50px;
+    margin: 100px;
+    box-shadow:20px 20px 60px sienna;
+    
+}
+.layout{
+    display: flex;
+    justify-content: space-evenly;
+}
+.phone{
+    color: black;
+    border:1px solid darkgray ;
+    width: 240px;
+    height: 120px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    box-shadow: 0px 0px 10px darkgray;
+}
+.phone:hover{
+    border: 1px solid darkgray;
+    
+    background-color:#CC832E;
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    box-shadow: 10px 10px 10px darkgray;
+
+}
+.mail{
+    color:black;
+    border: 1px solid darkgrey;
+    width: 240px;
+    height: 120px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 150px;
+    box-shadow: 0px 0px 10px darkgray;
+
+}
+.mail:hover{
+    border: 1px solid darkgray;
+    
+    background-color:#CC832E;
+    width: 290px;
+    height: 120px;
+    text-align: center;
+    box-shadow: 10px 10px 10px darkgrey;
+
+}
+.map{
+    width:50%;
+    height: auto;
+    margin-left: 195px;
+    padding: 30px;
+}
+.l1{
+    display:flex;
+    justify-content: space-around;
+    margin-right: 140px;
+}
+/* Details */
+.type{
+    color:#CC832E;
+    background-color: cornsilk;
+    display:blocks;
+    height: 10px;
+}
+.nm{
+    font-size: xx-large;
+color:black;
+background-color: cornsilk;
+display: inline-block;
+}
+.info{
+    font-size: xx-large;
+    color: #CC832E;
+    background-color: cornsilk;
+    display: inline-block;
+
+}
+.rupee{
+    font-size: xx-large;
+    color:#CC832E;
+    background-color: cornsilk;
+    display: inline-block;
+}
+.features{
+    font-size: xx-large;
+    color: #CC832E;
+    background-color: cornsilk;
+    display: inline-block;
+}
+
