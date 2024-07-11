@@ -18,6 +18,30 @@ body{
     
     
 }
+/* whatsapp integratin start here */
+
+.box{
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    background-color:green;
+    position: fixed;
+    bottom: 340px;
+    right: 30px;
+    z-index: 5;
+    font-size:50px;
+    
+}
+.fa{
+    padding: 13px;
+    color: white;
+    
+    font-weight: 500;
+
+}
+   
+/* whatsapp intergration ends here */
+
 /* media query for header */
 @media only screen and (max-width: 600px) {
     .header {
@@ -30,37 +54,52 @@ body{
 }
 .header-img{
     width: 1333px;
-    height: 375px;
+    height:500px;
+    z-index: 4;
 }
 .name{
+    border :1px solid black;
+    background-color: aliceblue;
+    margin-top: 87px;
+    margin-left:200px ;
+    z-index: 2;
     position: absolute;
-    /* top:130px;
-    left:550px; */
-    border: 3px solid black;
-    background-color:#ddfad6;
-    font-size: 50px;
-    font-family: 'times new roman';
+    ;
+}
+.name1{
     color:black;
-    box-shadow:10px 10px 10px aliceblue;
-    justify-content: center;
+    font-size:70px;
+    z-index: 2;
+    font-weight: 800;
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 200px;
 }
 @media only screen and (max-width: 600px) {
     .header-img{
         width: 390px;
         height: 200px;
+    
     }
     .name{
+        border :1px solid black;
+        background-color: aliceblue;
+        margin-top: 20px;
+        margin-left:60px ;
+        z-index: 2;
         position: absolute;
-        /* top:130px;
-        left:550px; */
-        border: 1px solid black;
-        background-color: antiquewhite;
-        font-size: 20px;
-        font-family: 'times new roman';
-        color:black;
-        box-shadow:10px 10px 10px aliceblue;
-        justify-content: center;
+        ;
     }
+    .name1{
+        color:black;
+        font-size:30px;
+        z-index: 2;
+        font-weight: 800;
+        position:absolute;
+        margin-top: 60px;
+        margin-left:70px;
+    }
+   
 }
 
 
@@ -237,6 +276,7 @@ body{
     align-items: center;
     display: block;
     position: relative;
+    filter: blur(8px);
 }
 
 @media only screen and (max-width: 600px) {
@@ -254,7 +294,7 @@ body{
     display:flex;
     width: 500px;
     height: 450px;
-
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 @media only screen and (max-width: 600px) {
     .images{
@@ -362,8 +402,8 @@ font-style: normal;
 }
 @media only screen and (max-width:600px){
     .pro{
-        margin :30px;
-        font-size: small;
+        margin-top :100px 100px;
+        font-size: 20px;
         align-items: center;
         color:black;
         font-family: "Roboto", sans-serif;
@@ -373,12 +413,172 @@ font-style: normal;
 }
 
 /* home ends here */
+
+
+
+
+/* feature strts here */
+
+.feature-img{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+}
+.feature-head{
+    margin-bottom: 0px;
+}
+@media only screen and (max-width:600px){
+    .feature-img{
+        position: relative;
+        margin-top: 10px;
+        margin-left: 30px;
+        display: flex;
+    }
+    .feature-head{
+        margin-bottom: 30px;
+    }
+
+}
+
+.head4{
+    font-size:37px;
+    color: rgb(255, 74, 23);
+    margin-bottom:20px;
+}
+.head1{
+    font-size:60px;
+    padding-bottom:150px;
+}
+
+.feature-body{
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+@media only screen and (max-width:600px){
+    .head4{
+        font-size:25px;
+        color: rgb(255, 74, 23);
+        margin-bottom:20px;
+    }
+    .head1{
+        font-size:50px;
+        padding-bottom:30px;
+    }
+    .feature-body{
+        line-height: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+}
+.feature-box{
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color:#5774BD;
+    display: inline-block;
+    padding: 40px;
+    line-height:55px;
+    margin-left: 60px;
+
+    
+}
+@media only screen and (max-width:600px){
+    .feature-box{
+        box-sizing: border-box;
+        border: 1px solid black;
+        background-color:#5774BD;
+        display: inline-block;
+        padding: 40px;
+        line-height:55px;
+        margin-left: 60px;
+        margin-bottom: 50px;
+    
+        
+    }
+}
+/* feature ends here */
+/* youtube video embed */
+.head5{
+    font-size:30px;
+    color: rgb(255, 74, 23);
+    margin-bottom:20px;
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 220px;
+    z-index: 2;
+}
+.name2{
+    color:black;
+    font-size: 40px;
+    z-index:2;
+    font-weight: 800;
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.video-img{
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 1;
+    margin-top:30px;
+    padding: 30px;
+}
+.video{
+    text-align: center;
+    position: absolute;
+    margin-top: 140px;
+    margin-left:650px;
+    z-index: 1;
+}
+@media only screen and (max-width:600px){
+
+.head5{
+    font-size:25px;
+    color: rgb(255, 74, 23);
+    margin-bottom:20px;
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+    z-index: 2;
+}
+.name2{
+    color:black;
+    font-size: 30px;
+    z-index:2;
+    font-weight: 800;
+    position:absolute;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.video-img{
+    box-sizing: border-box;
+    
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    padding: 30px;
+}
+.video{
+    width:80px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    margin-top: 140px;
+    margin-left:50px;
+    z-index: 1;
+}
+}
 /* Property */
 
 
 
 .property{
-    margin: 10px;
+    margin-top:50px;
     width: 600px;
     height: 750px;
     border-radius: 40px ;
@@ -634,15 +834,15 @@ font-style: normal;
 }
 }
 .map{
-    width:50%;
-    height: auto;
+    width:900px;
+    height: 450px;
     margin-left: 195px;
     padding: 30px;
 }
 @media only screen and (max-width: 600px) {
     .map{
-        width:50px;
-        height: auto;
+        width:200px;
+        height:150px;
         margin-right:50px;
         padding: 30px;
     }

@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- external css link -->
     <link rel="stylesheet" href="./style.css"/>
+    <!-- aos Animation CDN link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- home page -->
@@ -20,11 +23,11 @@
         </header>
         <!-- header ends here -->
         <!-- body starts  -->
-      <div class="image">
+      <div data-aos="zoom-in" class="image">
        <h1 class="name">Properties</h1>
        <a href="./details.html"><img class="header-img" src="./Images/villa 2.jpeg"/></a></div>
        <div class="prop">
-        <div class="property" id="c1">
+        <div data-aos="fade-up-left" class="property" id="c1">
           <button  class="type-btn"> Apartment</button>
             <h3 class="title">Oak Cottage,Miami</h3>
             <a href="./details.html"><img class="images" src="./Images/property1.jpeg" height="250px" width="250px"/></a>
@@ -33,7 +36,7 @@
            <a href="./details.html"> <button class="sch-btn">Schedule a visit</button></a>
        </div>
       
-       <div class="property" id="c2">
+       <div data-aos="fade-up-right" class="property" id="c2">
         <button  class="type-btn"> Penthouse</button>
         <h3 class="title">Sunset cove,California</h3>
         <a href="./details.html"><img  class="images" src="./Images/property2.jpeg" height="250px" width="250px"/></a>
@@ -42,7 +45,7 @@
         <a href="./details.html"> <button class="sch-btn">Schedule a visit</button></a>
       
        </div>
-       <div class="property" id="c3">
+       <div data-aos="fade-up-left" class="property" id="c3">
         <button  class="type-btn">Villa House</button>
         <h3 class="title">Royal Crest,London</h3>
         <a href="./details.html"><img class="images" src="./Images/property3.jpeg" height="250px" width="250px"/></a>
@@ -51,7 +54,7 @@
         <a href="./details.html"> <button class="sch-btn">Schedule a visit</button></a>
       
        </div>
-       <div class="property" id="c4">
+       <div data-aos="fade-up-right" class="property" id="c4">
         <button  class="type-btn">Villa House</button>
         <h3 class="title">Enchanted Grove,Florida</h3>
         <a href="./details.html"></a><img class="images" src="./Images/property4.jpeg" height="250px" width="250px"/></a>
@@ -60,7 +63,7 @@
         <a href="./details.html"> <button class="sch-btn">Schedule a visit</button></a>
       
        </div>
-       <div class="property" id="c5">
+       <div data-aos="fade-up-left" class="property" id="c5">
         <button  class="type-btn"> Apartment</button>
         <h3 class="title">Blissfull Horizon,New York</h3>
         <a href="./details.html"><img class="images" src="./Images/property5.jpeg" height="250px" width="250px"/></a>
@@ -82,6 +85,9 @@
         </div>
         <!-- footer ends here -->
       </footer>
-    
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
